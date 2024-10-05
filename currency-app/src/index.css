@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.background-section {
+  height: 100vh;
+  background-image: url("./assets/bg.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-center h3 {
+  font-weight: 600 !important;
+}
+.satır {
+  background-color: rgba(0, 37, 77, 0.589);
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  width: 60%;
+}
+.form-container {
+  min-height: 50%;
+}
+
+.bi {
+  color: aliceblue;
+  font-size: 50px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .satır {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .FormControl {
+    width: 82px !important;
+  }
+}
